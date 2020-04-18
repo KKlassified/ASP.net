@@ -15,7 +15,7 @@ namespace PracticemakesPerfect
             string id = Session["ID"].ToString();
             
             {
-                string connStr = "server= KING-KBK\\SQLEXPRESS2014; Database=Prog117DB; user id=PROG117_web_user; Password=abc123;";
+                string connStr = "server= SQLEXPRESS2014; Database=Prog117DB; user id=PROG117_web_user; Password=PASSWORD;";
                 SqlConnection conn = new SqlConnection(connStr);
                 conn.Open();
 
